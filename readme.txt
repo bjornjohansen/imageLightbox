@@ -10,7 +10,7 @@ Image Lightbox, Responsive and Touch‑friendly.
 
 == Description ==
 
-This is a WordPressified version of the excellent, lightweight (for real!) imageLightbox.js (MIT-licensed) by By Osvaldas Valutis (http://osvaldas.info/image-lightbox-responsive-touch-friendly)
+This is a WordPressified version of the excellent, lightweight (for real!) imageLightbox.js (MIT-licensed) by Osvaldas Valutis (http://osvaldas.info/image-lightbox-responsive-touch-friendly)
 
 This is his introduction to the lightbox:
 "As for the image lightboxes, I have always lacked simplicity for them. I mean not only the visual design, but the overall experience: from implementation to UX. All due respect, but I have never liked any of these light-fancy-face-boxes. They all were solving problems that just don't exist: lots of unwanted features by default, total mess in markup, no native behavior for touch screens. I was working on a project and needed an image lightbox that solves these problems. I needed a lightbox only for images, not video, text, and iframes at once. I made ImageLightbox.js."
@@ -32,7 +32,7 @@ Please let me know if you have any issues. Fastest way to get a response is by T
 Autodetection FTW!
 
 = How do I change the options? =
-FILTERS FTW!
+FILTERS FTW! imageLightbox_options
 
 = How do I replace the CSS with my own? =
 FILTERS FTW! imageLightbox_include_css
