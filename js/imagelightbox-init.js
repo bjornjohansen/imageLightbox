@@ -4,7 +4,6 @@
 		if ( "undefined" != typeof( imagelightbox ) ) {
 			options = imagelightbox.options;
 		}
-		var links = $('a[href$=".jpg"], a[href$=".png"], a[href$=".gif"]');
-		links.imageLightbox( options );
+		$('a[href$=".jpg"], a[href$=".png"], a[href$=".gif"]').imageLightbox( options );
 	});
 })(jQuery);
