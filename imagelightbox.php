@@ -38,7 +38,6 @@ class BJ_ImageLightbox {
 
 	function init() {
 		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_scripts_and_styles' ) );
-		add_filter( 'bj_lazy_load_html', array( __CLASS__, 'filter' ), 10, 1 );
 	}
 
 	function enqueue_scripts_and_styles() {
@@ -47,6 +46,11 @@ class BJ_ImageLightbox {
 			wp_enqueue_script( 'imageLightbox-init', plugins_url( '/js/imagelightbox-init.js', __FILE__ ), array( 'jquery', 'imageLightbox' ), self::version, true );
 		} else {
 			wp_enqueue_script( 'imageLightbox', plugins_url( '/js/combined.min.js', __FILE__ ), array( 'jquery' ), self::version, true );
+		}
+
+		$options = apply_filters( 'imageLightbox_options', array() );
+		if ( count( $options ) ) {
+			wp_localize_script( 'imageLightbox-init', 'imagelightbox', array( 'options' => $options ) );
 		}
 
 		if ( apply_filters( 'imageLightbox_include_css', true ) ) {
