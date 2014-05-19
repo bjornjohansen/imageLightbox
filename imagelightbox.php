@@ -42,7 +42,7 @@ class BJ_ImageLightbox {
 	}
 
 	function enqueue_scripts_and_styles() {
-		if ( defined( 'SCRIPT_DEBUG') && SCRIPT_DEBUG && false ) {
+		if ( defined( 'SCRIPT_DEBUG') && SCRIPT_DEBUG ) {
 			wp_enqueue_script( 'imageLightbox', plugins_url( '/js/imagelightbox.js', __FILE__ ), array( 'jquery' ), self::version, true );
 			wp_enqueue_script( 'imageLightbox-init', plugins_url( '/js/imagelightbox-init.js', __FILE__ ), array( 'jquery', 'imageLightbox' ), self::version, true );
 		} else {
