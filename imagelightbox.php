@@ -3,26 +3,26 @@
 Plugin Name: imageLightbox
 Plugin URI: http://wordpress.org/plugins/imagelightbox/
 Description: Image Lightbox, Responsive and Touch‑friendly
-Version: 0.1
+Version: 0.1.1
 Author: Bjørn Johansen
 Author URI: https://bjornjohansen.no
 Text Domain: imagelightbox
 License: GPL2
 
-    Copyright 2014  Bjørn Johansen  (email : post@bjornjohansen.no)
+	Copyright 2014 Bjørn Johansen  (email : post@bjornjohansen.no)
 
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License, version 2, as 
-    published by the Free Software Foundation.
+	This program is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License, version 2, as 
+	published by the Free Software Foundation.
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with this program; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 */
 
@@ -30,7 +30,7 @@ new BJ_ImageLightbox;
 
 class BJ_ImageLightbox {
 
-	const version = '0.1';
+	const version = '0.1.1';
 
 	function __construct() {
 		add_action( 'init', array( $this, 'init' ) );
