@@ -4,6 +4,7 @@ Donate link: http://www.kiva.org/
 Tags: images, jquery, lightbox, images, lightweight, responsive, mobile, touch
 Author URI: https://bjornjohansen.no/
 Requires at least: 3.8
+Tested up to: 3.9.1
 Stable tag: 0.1
 
 Image Lightbox, Responsive and Touch‑friendly.

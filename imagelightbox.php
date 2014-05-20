@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: imageLightbox
-Plugin URI: https://github.com/bjornjohansen/imageLightbox
+Plugin URI: http://wordpress.org/plugins/imagelightbox/
 Description: Image Lightbox, Responsive and Touch‑friendly
 Version: 0.1
 Author: Bjørn Johansen
