@@ -20,7 +20,7 @@ This version autodetects all links to image files and opens them in the lightbox
 
 For your "install, activate and go"-convenience, this plugin comes with a minimal CSS that easily can be deactivated and/or replaced.
 
-The plugin can also be themed to your liking. An example theme is available here: https://github.com/bjornjohansen/imagelightbox-theme-smooth
+The plugin can also be themed to your liking. An example theme is available here: http://wordpress.org/plugins/imagelightbox-smooth-theme/
 
 Please let me know if you have any issues. Fastest way to get a response is by Twitter: https://twitter.com/bjornjohansen
 
